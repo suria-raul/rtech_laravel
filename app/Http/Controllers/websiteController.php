@@ -3,11 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\product;
 
 class websiteController extends Controller
 {
+    var $data = [];
+    var $prod;
+    public function __construct(){
+        $this->prod = new product;
+    }
+
     public function index(){
-    	return view('website.body.index');
+        $this->data['product'] = $this->prod->products();
+    	return view('website.body.index', $this->data);
     }
 
     public function about(){
@@ -20,5 +28,10 @@ class websiteController extends Controller
 
     public function contact(){
     	return view('website.body.contact');
+    }
+
+    public function view($id){
+        // $this->data['prod'] = $this->prod->viewproduct($id);
+        return 'UnderConstruction';
     }
 }

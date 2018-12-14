@@ -24,7 +24,7 @@
 </head>
 <body>
 		
-<div class="fh5co-loader"></div>
+<div class="rtech-loader"></div>
 	
 <div id="page">
 	@include('website.templates.header')

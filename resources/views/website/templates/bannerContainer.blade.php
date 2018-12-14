@@ -1,4 +1,4 @@
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url({{asset('images/img_bg_2.jpg')}});">
+	<header id="rtech-header" class="rtech-cover rtech-cover-sm" role="banner" style="background-image:url({{asset('images/img_bg_2.jpg')}});">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">

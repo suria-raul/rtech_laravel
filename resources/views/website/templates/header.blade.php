@@ -1,24 +1,18 @@
-<nav class="fh5co-nav" role="navigation">
+<nav class="rtech-nav" role="navigation">
 	<div class="container">
 		<div class="row">
 
 			<div class="col-md-3 col-xs-2">
-				<div id="fh5co-logo"><a href="{{url('/')}}">R.TECH</a></div>
+				<div id="rtech-logo"><a href="{{url('/')}}">R.TECH</a></div>
 			</div>
 			<div class="col-md-6 col-xs-6 text-center menu-1">
 				<ul>
-					<li class="has-dropdown">
+					<li>
 						<a href="#">Shop</a>
 					</li>
 					<li><a href="{{url('/about-us')}}">About</a></li>
-					<li class="has-dropdown">
+					<li>
 						<a href="{{url('/services')}}">Services</a>
-						<ul class="dropdown">
-							<li><a href="#">Web Design</a></li>
-							<li><a href="#">eCommerce</a></li>
-							<li><a href="#">Branding</a></li>
-							<li><a href="#">API</a></li>
-						</ul>
 					</li>
 					<li><a href="{{url('/contact')}}">Contact</a></li>
 				</ul>

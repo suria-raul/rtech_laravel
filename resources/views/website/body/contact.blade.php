@@ -1,12 +1,12 @@
 @extends('website.templates.master')
 @section('body')
 @include('website.templates.bannerContainer')
-	<div id="fh5co-contact">
+	<div id="rtech-contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5 col-md-push-1 animate-box">
 					
-					<div class="fh5co-contact-info">
+					<div class="rtech-contact-info">
 						<h3>Contact Information</h3>
 						<ul>
 							<li class="address">000 Underworld Dark Hell, <br> Furnace 8 Crystal Blue Palace DM 00000</li>
